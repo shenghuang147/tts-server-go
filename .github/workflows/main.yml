@@ -6,6 +6,7 @@ on:
       - master
     paths:
       - 'CHANGELOG.md'
+  workflow_dispatch: # on button click
 
 env:
   BINARY_PREFIX: "tts-server-go_"
